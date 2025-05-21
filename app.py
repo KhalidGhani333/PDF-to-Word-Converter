@@ -22,3 +22,10 @@ if uploaded_file:
     with open(output_docx, "rb") as f:
         st.success("✅ Conversion completed!")
         st.download_button("Download Word File", f, file_name="Converted.docx")
+
+
+st.markdown("---")
+st.markdown(
+    "<p style='text-align:center; font-size: 12px; color: #888;'>🔧 Built by <strong>Khalid Ghani</strong></p>",
+    unsafe_allow_html=True
+)
